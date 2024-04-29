@@ -14,6 +14,7 @@ CREATE TABLE bruxos(
     idade INT NOT NULL,
     casa_hogwarts VARCHAR(50) NOT NULL,
     patrono VARCHAR(150) NOT NULL,
+    habilidade_especial VARCHAR(150) NOT NULL,
     status_sangue VARCHAR(50) NOT NULL,
     id_varinha INT NOT NULL,
     FOREIGN KEY (id_varinha) REFERENCES varinha(id)
